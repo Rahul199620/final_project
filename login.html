@@ -1,17 +1,70 @@
+
+
+
+
+
+
+
 <!Doctype html>
 <html>
-<head>
-	
-
-	
-	      <title>LOGIN PAGE</title>
-         </head>
-         <body>
-         <h1 style="background-color: blue; color:white; text-align:center; height:100px; width:1500px;" >Welcome to facebook login</h1>	
-         Username<input type="text"></br>
-         Password<input type="password"></br>
-         Login<input type="login"></br>
+	<body bgcolor="#B2EBF2"
+	<head>
+	<title>Login page</title>
+	<h1  style="background-color:#37474F; color:white; text-align:center; height:100px; width:1400px;" >Welcome to facebook login</h1>
 
 
-	</body>
-</html>	
+
+
+
+
+
+
+
+
+
+
+<style>
+#login_form {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    right: 30%;
+    bottom: 20%;
+    font-size: 18px;
+}
+
+#f1 {
+    background-color: #ccc;
+    border-style: solid;
+    border-width: 1px;
+}
+.f1_label {
+    white-space: nowrap;
+}
+
+</style>
+<body>
+<div id="login_form">
+    <form name="f1" method="post" action="login.php" id="f1">
+        <table>
+            <tr>
+                <td class="f1_label">User Name :</td><td><input type="text" name="username" value="" />
+                </td>
+            </tr>
+            <tr>
+                <td class="f1_label">Password  :</td><td><input type="password" name="password" value=""  />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" name="login" value="Log In" style="font-size:18px; " />
+                </td>
+            </tr>
+        </table>
+    </form> 
+
+</div>
+
+
+</body>
+</html>
